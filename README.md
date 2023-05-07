@@ -10,6 +10,28 @@
 
 O modelo treinado possui performance de **87.9%**.
 
+<details>
+  <summary>Click to expand!</summary>
+  
+  ```text
+    classify/val: data=../datasets/Images-4, weights=['runs/train-cls/exp/weights/best.pt'], batch_size=128, imgsz=224, device=, workers=8, verbose=True, project=runs/val-cls, name=exp, exist_ok=False, half=False, dnn=False
+requirements: /content/requirements.txt not found, check failed.
+YOLOv5 🚀 v7.0-162-gc3e4e94 Python-3.10.11 torch-2.0.0+cu118 CUDA:0 (Tesla T4, 15102MiB)
+
+Fusing layers... 
+Model summary: 117 layers, 4171812 parameters, 0 gradients, 10.4 GFLOPs
+testing: 100% 1/1 [00:00<00:00,  1.42it/s]
+                   Class      Images    top1_acc    top5_acc
+                     all          33       0.879           1
+                     dog          33       0.879           1
+                 dolphin           0         nan         nan
+                  parrot           0         nan         nan
+                tortoise           0         nan         nan
+Speed: 0.1ms pre-process, 9.6ms inference, 1.2ms post-process per image at shape (1, 3, 224, 224)
+Results saved to runs/val-cls/exp
+  ```
+</details>
+
 ### Output do bloco de treinamento
 
 <details>
@@ -252,7 +274,3 @@ Gráficos de perda:
 Nessa seção deve colocar o link para acessar o dataset no Roboflow
 
 [Roboflow Dataset](https://universe.roboflow.com/classification/images-hzj5q)
-
-## HuggingFace
-
-Nessa seção você deve publicar o link para o HuggingFace
