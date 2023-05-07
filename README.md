@@ -16,6 +16,9 @@ O modelo treinado possui performance de **87.9%**.
   <summary>Click to expand!</summary>
   
   ```text
+    albumentations: RandomResizedCrop(p=1.0, height=640, width=640, scale=(0.08, 1.0), ratio=(0.75, 1.3333333333333333), interpolation=1), HorizontalFlip(p=0.5), ColorJitter(p=0.5, brightness=[0.6, 1.4], contrast=[0.6, 1.4], saturation=[0.6, 1.4], hue=[0, 0]), Normalize(p=1.0, mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225), max_pixel_value=255.0), ToTensorV2(always_apply=True, p=1.0, transpose_mask=False)
+Downloading https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5s-cls.pt to yolov5s-cls.pt...
+100% 10.5M/10.5M [00:00<00:00, 114MB/s]
     Model summary: 149 layers, 4177604 parameters, 4177604 gradients, 10.5 GFLOPs
 optimizer: Adam(lr=0.001) with parameter groups 32 weight(decay=0.0), 33 weight(decay=5e-05), 33 bias
 Image sizes 640 train, 640 test
