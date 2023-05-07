@@ -240,10 +240,12 @@ Visualize:       https://netron.app
 
 ### Evidências do treinamento
 
-Nessa seção você deve colocar qualquer evidência do treinamento, como por exemplo gráficos de perda, performance, matriz de confusão etc.
+Gráfico de acurária:
+![W B Chart 07_05_2023, 13 27 43(1)](https://user-images.githubusercontent.com/131788893/236690333-4eee543c-b243-4b4d-90fb-0b8515879c61.png)
 
-Exemplo de adição de imagem:
-![Descrição](https://picsum.photos/seed/picsum/500/300)
+Gráficos de perda:
+![W B Chart 07_05_2023, 13 28 06(1)](https://user-images.githubusercontent.com/131788893/236690353-0707cdee-5da1-4594-80a2-2153563ba42b.png)
+![W B Chart 07_05_2023, 13 28 24(1)](https://user-images.githubusercontent.com/131788893/236690365-37fb0da2-522f-4b90-af46-79a1a1e8b5f8.png)
 
 ## Roboflow
 
