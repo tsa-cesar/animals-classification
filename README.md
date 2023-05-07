@@ -8,7 +8,7 @@
 
 ## Performance
 
-O modelo treinado possui performance de **??%**.
+O modelo treinado possui performance de **87.9%**.
 
 ### Output do bloco de treinamento
 
